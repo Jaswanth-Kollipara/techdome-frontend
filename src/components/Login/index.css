@@ -1,0 +1,121 @@
+.login-container{
+    height: 97vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.form-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-headding{
+    text-align: center;
+}
+
+.label{
+    margin-bottom: 5px;
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.p-error{
+    color: red;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.error-message{
+    color: red;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.login-button{
+    width: 30%;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.link-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    width: 30%;
+}
+
+.sign-up-button{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.admin-button{
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width:600px){
+    .form-container{
+        width: 80%;
+    }
+
+    .form-headding{
+        font-size: 30px;
+    }
+
+    .login-button{
+        width: 50%;
+    }
+
+    .link-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link{
+        width: 100%;
+    }
+
+    .admin-button{
+        width: 50%;
+    }
+
+    .sign-up-button{
+        width: 50%;
+    }
+}

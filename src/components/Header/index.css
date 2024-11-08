@@ -1,0 +1,28 @@
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.nav-link{
+    width: 20%;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.nav-headder{
+    color: white;
+    font-size: 20px;
+}
+
+.logout-btn{
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+}
