@@ -1,3 +1,8 @@
+After downloading the code from the git.
+Move the folder to D:\FullStack\Techdome directory,
+use npm install command to install all the packages,
+use npm start command to run the program.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
