@@ -2,6 +2,9 @@ After downloading the code from the git.
 Move the folder to D:\FullStack\Techdome directory,
 use npm install command to install all the packages,
 use npm start command to run the program.
+The login cradentials are
+name: Jaswanth
+password: Jaswanth@
 
 # Getting Started with Create React App
 
